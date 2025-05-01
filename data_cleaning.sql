@@ -16,7 +16,7 @@ UPDATE data_staging SET Borough = 'the bronx' WHERE Borough = 'BRONX';
 UPDATE data_staging SET Borough = 'manhattan' WHERE Borough = 'MANHATTAN';
 UPDATE data_staging SET Borough = 'queens' WHERE Borough = 'QUEENS';
 UPDATE data_staging SET Borough = 'brooklyn' WHERE Borough = 'BROOKLYN';
-UPDATE data_stagingb SET Borough = 'staten island' WHERE Borough = 'STATEN ISLAND';
+UPDATE data_staging SET Borough = 'staten island' WHERE Borough = 'STATEN ISLAND';
 
 -- Fill in missing borough by zipcode
 SELECT Borough, `Incident Zip`
